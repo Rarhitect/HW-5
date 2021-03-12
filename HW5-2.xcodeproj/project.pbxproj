@@ -239,7 +239,10 @@
 		2DD0B1C625FADB7200293D40 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
 				CODE_SIGN_STYLE = Automatic;
+				HEADER_SEARCH_PATHS = /usr/local/boost_1_75_0/include/;
+				LIBRARY_SEARCH_PATHS = /usr/local/boost_1_75_0/lib/;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -247,7 +250,10 @@
 		2DD0B1C725FADB7200293D40 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
 				CODE_SIGN_STYLE = Automatic;
+				HEADER_SEARCH_PATHS = /usr/local/boost_1_75_0/include/;
+				LIBRARY_SEARCH_PATHS = /usr/local/boost_1_75_0/lib/;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
